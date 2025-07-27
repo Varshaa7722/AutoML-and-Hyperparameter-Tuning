@@ -4,7 +4,7 @@ Automatic sentiment classification of Amazon product reviews into **positive**, 
 
 
 
-##  Project Overview
+## Project Overview
 
 - **Objective**: Predict sentiment labels from Amazon review text and metadata using an automated pipeline that selects features, tunes models with Optuna, and evaluates performance.
 - **Features used**: TF‑IDF features from review text, standardized numerical features (`review_score`, `cleaned_review_length`), with top‑10 feature selection via `SelectKBest`.
@@ -15,7 +15,7 @@ Automatic sentiment classification of Amazon product reviews into **positive**, 
 
 
 
-##  How It Works
+## How It Works
 
 1. **Data Loading & Preprocessing** (`utils.py`)
    - Reads CSV, drops missing reviews, applies TF-IDF + standard scaling on numeric columns.
@@ -45,7 +45,7 @@ Automatic sentiment classification of Amazon product reviews into **positive**, 
 
 
 
-##Results
+## Results
 Class distribution: ~9,503 positive, ~6,300 neutral, ~1,534 negative reviews.
 
 Validation accuracy reported per model: **XGBoost typically achieves highest.**
