@@ -12,10 +12,7 @@ Automatic sentiment classification of Amazon product reviews into **positive**, 
 - **Tuning**: Optuna-based tuning for XGBoost and RandomForest using multiclass accuracy.
 
 
-
-
-
-## How It Works
+## Working
 
 1. **Data Loading & Preprocessing** (`utils.py`)
    - Reads CSV, drops missing reviews, applies TF-IDF + standard scaling on numeric columns.
